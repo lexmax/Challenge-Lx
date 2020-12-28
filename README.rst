@@ -9,6 +9,42 @@ Para acceder a ellos el profesional debe tener la capacidad de ingresar de maner
 FUNCIONALIDADES:
 ---------------
 
+La plataforma cumple con una gestión básica.
+
+1.- Login:
+^^^^^^^^^^
+
+Inicio de sesión a travez de un usuario y contraseña.
+
+.. image:: assets/views/01_login.png
+  :width: 100%
+
+2.- Verificar código:
+^^^^^^^^^^^^^^^^^^^^^
+
+Este paso se realiza la primera vezque se crea la cuenta. Y luego cada cierto número de días
+
+.. image:: assets/views/02_verify_code.png
+  :width: 100%
+
+
+3.- Listado:
+^^^^^^^^^^^^
+
+Aquí debemos tener en un tabla la lista de actividades a realizar.
+
+.. image:: assets/views/03_compliance_list.png
+  :width: 100%
+
+
+4.- Kanban:
+^^^^^^^^^^^^
+
+Esta vista nos proporciona la actividades en columnas y cada columna proporciona un estado. Mover la tarjeta de columna en columna debería permitir el cambio de estado de la actividad.
+
+.. image:: assets/views/04_compliance_kanban.png
+  :width: 100%
+
 
 BACKEND:
 --------
