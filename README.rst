@@ -113,3 +113,22 @@ Api para cambiar el estado del cumplimiento.
 .. image:: assets/apis/06_compliance_change_status.png
   :width: 100%
 
+
+DESAFÍOS A ALCANZAR:
+-------------------
+
+Este es un desafío de react y no de diseño. En este desafío debes mostrar tu habilidades en el manejo de tecnologías como:
+
+- Typescritp
+- ...
+
+
+
+REQUISITOS:
+-----------
+
+Se necesita utilzar el la última versión estable de NODEJS y la solución debe encontrarse en un repositorio. El repositorio debe contener un archivo que explique como ejecutar el aplicativos (README).
+
+- ...
+
+
