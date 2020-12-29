@@ -94,12 +94,15 @@ Este api proporciona los datos del usuario. Para ello se le debe proporcionar el
 4.- Compliance list:
 ^^^^^^^^^^^^^^^^^^^^
 
+Este api nos proporciona la lista de cumplimiento  .
+
 .. image:: assets/apis/04_compliance_list.png
   :width: 100%
 
 
 5.- Compliance kanban:
 ^^^^^^^^^^^^^^^^^^^^^^
+Este api nos proporciona la lista de cumplimiento por modulo.
 
 .. image:: assets/apis/05_compliance_kanban.png
   :width: 100%
@@ -117,18 +120,18 @@ Api para cambiar el estado del cumplimiento.
 DESAFÍOS A ALCANZAR:
 -------------------
 
-Este es un desafío de react y no de diseño. En este desafío debes mostrar tu habilidades en el manejo de tecnologías como:
+Este es un desafío de next y no de diseño. En este desafío debes mostrar tu habilidades en el manejo de tecnologías como:
 
-- Typescritp
-- ...
-
+- Typescript
+- Next
+- Uso de Ant design 
 
 
 REQUISITOS:
 -----------
 
 Se necesita utilzar el la última versión estable de NODEJS y la solución debe encontrarse en un repositorio. El repositorio debe contener un archivo que explique como ejecutar el aplicativos (README).
+Para la realizacion del tablero de kanban podria utilizar la libreria de react-trello como opcion a desarrollar el tablero .
 
-- ...
 
 
