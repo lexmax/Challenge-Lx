@@ -130,8 +130,9 @@ Este es un desafío de next y no de diseño. En este desafío debes mostrar tu h
 REQUISITOS:
 -----------
 
-Se necesita utilzar el la última versión estable de NODEJS y la solución debe encontrarse en un repositorio. El repositorio debe contener un archivo que explique como ejecutar el aplicativos (README).
-Para la realizacion del tablero de kanban podria utilizar la libreria de react-trello como opcion a desarrollar el tablero .
+- Se necesita utilzar el la última versión estable de NODEJS y la solución debe encontrarse en un repositorio. El repositorio debe contener un archivo que explique como ejecutar el aplicativos (README).
+- Para la realizacion del tablero de kanban podria utilizar la libreria de react-trello como opcion a desarrollar el tablero .
+- Se recomienda usar los componentes de ant design para las vistas mostradas .
 
 
 
