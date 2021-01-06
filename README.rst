@@ -63,9 +63,9 @@ Para la gestión de cumplimientos, contamos con las siguientes apis:
 Para acceder a la plataforma, y consumir las otras api se necesita crear el token para ello se deben usar los siguientes datos:
 
 - username: [your mail]
-- password: [*******]
-- client_id: [client ID]
-- client_secret: [client secret]
+- password: 123456
+- client_id: 1mkstVDJvOFxla31cTMi1tDi
+- client_secret: tlJ2lmYJEGRGjRLva4Y5eTYgZnuvTiMRaYTas5Xv2cIK0f42
 - verify_code: Este valor es opcional y se optiene a travez de sms cada vez que se necesita verificar la autenticidad de un usuario.
 
 Si el api devuelve un 403. Siginifica que el usuario necesita una segunda validación para acceder a la plataforma, y para ello se debe consumir nuevamente el API(/v1/oauth/token) con el valor adicional "verify_code". Este valor es un número de 4 digitos que llega a travez de SMS. Una vez que consumimos el API con el valor opcional (verify_code). EL api nos devolvera el "access_token"
@@ -103,7 +103,7 @@ Este api proporciona los datos del usuario. Para ello se le debe proporcionar el
 
 Este api nos proporciona la lista de cumplimiento.
 
-`http://dev.api.lexmax.pe/v1/module/compliance_list`
+`http://dev.api.lexmax.pe/v1/module/compliance_list?qmodule_public_id=aacaf015-e00e-42bd-9e06-5fc8d3e2997b`
 
 .. image:: assets/apis/04_compliance_list.png
   :width: 100%
@@ -113,7 +113,7 @@ Este api nos proporciona la lista de cumplimiento.
 ^^^^^^^^^^^^^^^^^^^^^^
 Este api nos proporciona la lista de cumplimiento por modulo.
 
-`http://dev.api.lexmax.pe/v1/module/compliance_kanban_list`
+`http://dev.api.lexmax.pe/v1/module/compliance_kanban_list?qmodule_public_id=aacaf015-e00e-42bd-9e06-5fc8d3e2997b`
 
 .. image:: assets/apis/05_compliance_kanban.png
   :width: 100%
