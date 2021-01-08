@@ -62,6 +62,7 @@ Para la gestión de cumplimientos, contamos con las siguientes apis:
 
 Para acceder a la plataforma, y consumir las otras api se necesita crear el token para ello se deben usar los siguientes datos:
 
+- grant_type: password
 - username: [your mail]
 - password: 123456
 - client_id: 1mkstVDJvOFxla31cTMi1tDi
