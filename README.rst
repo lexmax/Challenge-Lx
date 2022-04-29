@@ -1,4 +1,4 @@
-# Challengue-Lx
+# Challenge-Lx
 
 PROBLEMÁTICA:
 -------------
@@ -10,7 +10,7 @@ FUNCIONALIDADES:
 ---------------
 
 La plataforma cumple con una gestión básica.
-
+https://github.com/lexmax/Challenge-Lx/blob/main/README.rst
 1.- Login:
 ^^^^^^^^^^
 
